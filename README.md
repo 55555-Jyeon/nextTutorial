@@ -169,7 +169,7 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
 }
 ```
 
-이렇게 사용하는 경우 Inter는 전역적으로 적용되며 Roboto Mono는 모든 <h1> 태그의 스타일에 지정됩니다.
+이렇게 사용하는 경우 Inter는 전역적으로 적용되며 Roboto Mono는 모든 h1 태그의 스타일에 지정됩니다.
 
 ```typescript
 // app/ui/global.css
