@@ -7,6 +7,7 @@ import { z } from 'zod';
 import { signIn } from '@/auth';
 import { AuthError } from 'next-auth';
 
+// auth
 export async function authenticate(
   prevState: string | undefined,
   formData: FormData,
@@ -26,6 +27,7 @@ export async function authenticate(
   }
 }
 
+// invoice CRUD
 const FormSchema = z.object({
   id: z.string(),
   customerId: z.string({ invalid_type_error: 'Please select a customer.' }),

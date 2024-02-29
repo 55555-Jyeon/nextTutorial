@@ -1,3 +1,5 @@
+'use client';
+
 import { updateInvoice } from '@/app/lib/actions';
 import { CustomerField, InvoiceForm } from '@/app/lib/definitions';
 import { useFormState } from 'react-dom';
